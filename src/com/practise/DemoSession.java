@@ -13,7 +13,7 @@ import javax.servlet.http.HttpSession;
 /**
  * Servlet implementation class DemoServletContext
  */
-@WebServlet(description = "Servlet Context", urlPatterns = { "/DemoServletContext" })
+@WebServlet(description = "Servlet Context", urlPatterns = { "/DemoSession" })
 public class DemoSession extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        

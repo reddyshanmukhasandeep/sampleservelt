@@ -30,5 +30,8 @@ public class SimpleServlet extends HttpServlet {
 		out.print("<h3>Hello from Get Method</h3>");
 		out.println(status);
 	}
+	public static void main(String[] args) {
+		System.out.println("Hi Anu");
+	}
 
 }
